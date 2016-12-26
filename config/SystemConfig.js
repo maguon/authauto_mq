@@ -17,7 +17,7 @@ var loggerConfig = {
         { type: 'console' },
         {
             "type": "file",
-            "filename": "../mq.log",
+            "filename": "../logs/mq.log",
             "maxLogSize": 2048000,
             "backups": 10
         }
